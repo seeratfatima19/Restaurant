@@ -1,0 +1,117 @@
+
+.top-container{
+
+    margin:-10px;
+    
+}
+.header{
+
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+h1{
+    color:#ffffff;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+}
+
+h2,p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 25;
+
+
+}
+
+.container-2{
+    display:flex;
+    background-color: #161619;
+    height:400px;
+    margin:0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-text{
+    font-weight: 50;
+}
+
+.card-holder{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.card{
+   
+    max-width: 320px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    margin: 20px;
+    
+    
+}
+
+.text-container{
+    padding:10px 20px 0px 20px;
+    
+}
+
+.container-3{
+    height: 500px;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    margin-bottom: -10px;
+    
+}
+.contact, .about{
+    
+    padding: 100px;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.contact{
+    background-color: #515603;
+}
+
+.about{
+
+    background-color: #722300;
+}
+
+#c1, #a1{
+    font-weight: 20;
+}
+
+.contact-heading, .about-heading{
+    font-weight:lighter;
+    font-size: 60px;
+}
+
+.footer{
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.footer-content{
+    color:#ffffff;
+}
