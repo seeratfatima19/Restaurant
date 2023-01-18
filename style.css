@@ -1,0 +1,152 @@
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+
+.page-container{
+
+    display:flex;
+    flex-direction: column;
+    margin: -10px;
+    
+}
+
+.hero{
+
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    float:right;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 100px 10px 0px;
+    
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img{
+    margin-top:-10px;
+}
+
+.hero-section{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-image{
+
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-image: url(assets/hero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    margin: 0px 20px 0px 200px; 
+
+}
+
+.hero-text{
+    flex:1;
+    margin: 0px 200px 0px 20px;
+}
+
+p span{
+    background-color: #149F39;
+    color:#ffffff;
+    overflow: hidden;
+    padding:10px;
+}
+
+.btn{
+
+    color:#ffffff;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+
+}
+
+#explore{
+    background-color: #FFC066;
+    font-size: 20px;
+    border-style: none;
+}
+
+.card-holder{
+    display:flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid #b7b7b7;
+}
+
+.card{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    height: 250px;
+    margin: 20px;
+   
+}
+
+.card-text{
+    padding-left: 20px;
+    padding-right: -10px;
+}
+
+.menu-section{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-btn{
+    background-color: #149F39;
+    font-size: 15px;
+}
